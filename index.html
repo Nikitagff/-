@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body >
+  <div class="page">  
+      <div class="container">
+
+                    
+
+
+
+               <!--основа-->
+
+    <form class="js_module-calc" action="/">
+        <div class="calculator calc-main boxSubstrate boxSubstrate-offset-0" style="cursor: pointer;"">
+            <div class="p-smart">
+                <h1 class="blue" ">Калькулятор валют</h1>
+                <div class="f-center">
+                    <table class="no-border calculator_fields">
+                        <tr>
+                            <td>
+                                <input class="calculator_sum validate-price t-right"
+                                    type="tel" step="0.01"
+                                    value=""
+                                    placeholder="100,00"/>
+                                <input type="hidden" name="amount"/>
+                            </td>
+                            <td class="calculator_countryWrapper" colspan="2">
+                                <select class="select select-default js_select js-matcher" name="code_from">
+                                                                                                                        
+                                                                                        <option
+                                                    value="840"
+                                                                                                    >USD Доллар США  (840)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="978"
+                                                                                                    >EUR Евро  (978)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="643"
+                                                                                                    >RUB Российский рубль  (643)</option>
+                                                                                                                            
+                                                                                                                                        <option class="bt"
+                                                    value="51"
+                                                                                                    >AMD Армянский драм  (51)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="36"
+                                                                                                    >AUD Австралийский доллар  (36)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="944"
+                                                                                                    >AZN Азербайджанский манат  (944)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="975"
+                                                                                                    >BGN Болгарский лев  (975)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="986"
+                                                                                                    >BRL Бразильский реал  (986)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="933"
+                                                                                                    >BYN Белорусский рубль  (933)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="124"
+                                                                                                    >CAD Канадский доллар  (124)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="756"
+                                                                                                    >CHF Швейцарский франк  (756)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="156"
+                                                                                                    >CNY Китайский юань  (156)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="203"
+                                                                                                    >CZK Чешская крона  (203)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="208"
+                                                                                                    >DKK Датская крона  (208)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="826"
+                                                                                                    >GBP Фунт стерлингов  (826)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="344"
+                                                                                                    >HKD Гонконгский доллар  (344)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="348"
+                                                                                                    >HUF Венгерский форинт  (348)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="356"
+                                                                                                    >INR Индийская рупия  (356)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="392"
+                                                                                                    >JPY Японская иена  (392)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="417"
+                                                                                                    >KGS Киргизский сом  (417)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="410"
+                                                                                                    >KRW Вон Республики Корея  (410)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="398"
+                                                                                                    >KZT Казахстанский тенге  (398)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="498"
+                                                                                                    >MDL Молдавский лей  (498)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="578"
+                                                                                                    >NOK Норвежская крона  (578)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="985"
+                                                                                                    >PLN Польский злотый  (985)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="946"
+                                                                                                    >RON Румынский лей  (946)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="752"
+                                                                                                    >SEK Шведская крона  (752)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="702"
+                                                                                                    >SGD Сингапурский доллар  (702)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="972"
+                                                                                                    >TJS Таджикский сомони  (972)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="934"
+                                                                                                    >TMT Новый туркменский манат  (934)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="949"
+                                                                                                    >TRY Турецкая лира  (949)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="980"
+                                                                                                    >UAH Украинская гривна  (980)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="860"
+                                                                                                    >UZS Узбекский сум  (860)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="960"
+                                                                                                    >XDR СДР (специальные права заимствования)  (960)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="710"
+                                                                                                    >ZAR Южноафриканский рэнд  (710)</option>
+                                                                                                                                                        
+                                                                                        <option
+                                                    value="784"
+                                                                                                    >AED Дирхам (ОАЭ)  (784)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="971"
+                                                                                                    >AFN Афганских афгани  (971)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="8"
+                                                                                                    >ALL Лек  (8)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="973"
+                                                                                                    >AOA Ангольских кванз  (973)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="32"
+                                                                                                    >ARS Аргентинское песо  (32)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="533"
+                                                                                                    >AWG Арубанский флорин  (533)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="977"
+                                                                                                    >BAM Конвертируемая марка  (977)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="52"
+                                                                                                    >BBD Барбадосский доллар  (52)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="50"
+                                                                                                    >BDT Така  (50)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="48"
+                                                                                                    >BHD Бахрейнский динар  (48)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="108"
+                                                                                                    >BIF Бурундийский франк  (108)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="60"
+                                                                                                    >BMD Бермудский доллар  (60)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="96"
+                                                                                                    >BND Брунейский доллар  (96)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="68"
+                                                                                                    >BOB Боливиано  (68)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="44"
+                                                                                                    >BSD Багамский доллар  (44)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="64"
+                                                                                                    >BTN Нгултрум  (64)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="72"
+                                                                                                    >BWP Пула  (72)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="84"
+                                                                                                    >BZD Белизский доллар  (84)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="976"
+                                                                                                    >CDF Конголезских франков  (976)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="152"
+                                                                                                    >CLP Чилийское песо  (152)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="170"
+                                                                                                    >COP Колумбийское песо  (170)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="188"
+                                                                                                    >CRC Костариканский колон  (188)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="192"
+                                                                                                    >CUP Кубинское песо  (192)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="132"
+                                                                                                    >CVE Эскудо Кабо-Верде  (132)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="262"
+                                                                                                    >DJF Франк Джибути  (262)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="214"
+                                                                                                    >DOP Доминиканское песо  (214)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="12"
+                                                                                                    >DZD Алжирский динар  (12)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="818"
+                                                                                                    >EGP Египетский фунт  (818)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="232"
+                                                                                                    >ERN Эритрейская накфа  (232)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="230"
+                                                                                                    >ETB Эфиопский быр  (230)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="242"
+                                                                                                    >FJD Доллар Фиджи  (242)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="238"
+                                                                                                    >FKP Фунт Фолклендских островов  (238)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="981"
+                                                                                                    >GEL Лари  (981)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="936"
+                                                                                                    >GHS Ганский седи  (936)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="292"
+                                                                                                    >GIP Гибралтарский фунт  (292)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="270"
+                                                                                                    >GMD Даласи  (270)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="324"
+                                                                                                    >GNF Гвинейский франк  (324)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="320"
+                                                                                                    >GTQ Кетсаль  (320)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="328"
+                                                                                                    >GYD Гайанский доллар  (328)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="340"
+                                                                                                    >HNL Лемпира  (340)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="191"
+                                                                                                    >HRK Хорватская куна  (191)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="332"
+                                                                                                    >HTG Гурд  (332)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="360"
+                                                                                                    >IDR Рупия  (360)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="376"
+                                                                                                    >ILS Новый израильский шекель  (376)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="368"
+                                                                                                    >IQD Иракский динар  (368)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="364"
+                                                                                                    >IRR Иранский риал  (364)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="352"
+                                                                                                    >ISK Исландская крона  (352)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="388"
+                                                                                                    >JMD Ямайский доллар  (388)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="400"
+                                                                                                    >JOD Иорданский динар  (400)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="404"
+                                                                                                    >KES Кенийский шиллинг  (404)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="116"
+                                                                                                    >KHR Риель  (116)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="174"
+                                                                                                    >KMF Франк Комор  (174)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="408"
+                                                                                                    >KPW Северокорейская вона  (408)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="414"
+                                                                                                    >KWD Кувейтский динар  (414)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="418"
+                                                                                                    >LAK Кип  (418)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="422"
+                                                                                                    >LBP Ливанский фунт  (422)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="144"
+                                                                                                    >LKR Шри-Ланкийская рупия  (144)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="430"
+                                                                                                    >LRD Либерийский доллар  (430)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="434"
+                                                                                                    >LYD Ливийский динар  (434)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="504"
+                                                                                                    >MAD Марокканский дирхам  (504)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="969"
+                                                                                                    >MGA Малагасийских ариари  (969)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="807"
+                                                                                                    >MKD Денар  (807)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="496"
+                                                                                                    >MNT Тугрик  (496)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="446"
+                                                                                                    >MOP Патака  (446)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="929"
+                                                                                                    >MRU Мавританских угий  (929)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="480"
+                                                                                                    >MUR Маврикийская рупия  (480)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="462"
+                                                                                                    >MVR Руфия  (462)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="454"
+                                                                                                    >MWK Квача  (454)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="484"
+                                                                                                    >MXN Мексиканское песо  (484)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="458"
+                                                                                                    >MYR Малайзийский ринггит  (458)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="943"
+                                                                                                    >MZN Мозамбикских метикалов  (943)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="516"
+                                                                                                    >NAD Доллар Намибии  (516)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="566"
+                                                                                                    >NGN Найра  (566)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="558"
+                                                                                                    >NIO Золотая кордоба  (558)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="524"
+                                                                                                    >NPR Непальская рупия  (524)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="554"
+                                                                                                    >NZD Новозеландский доллар  (554)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="512"
+                                                                                                    >OMR Оманский риал  (512)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="604"
+                                                                                                    >PEN Новый соль  (604)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="598"
+                                                                                                    >PGK Кина  (598)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="608"
+                                                                                                    >PHP Филиппинское песо  (608)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="586"
+                                                                                                    >PKR Пакистанская рупия  (586)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="600"
+                                                                                                    >PYG Гуарани  (600)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="634"
+                                                                                                    >QAR Катарский риал  (634)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="941"
+                                                                                                    >RSD Сербских динаров  (941)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="646"
+                                                                                                    >RWF Франк Руанды  (646)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="682"
+                                                                                                    >SAR Саудовский риял  (682)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="90"
+                                                                                                    >SBD Доллар Соломоновых Островов  (90)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="690"
+                                                                                                    >SCR Сейшельская рупия  (690)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="938"
+                                                                                                    >SDG Суданский фунт  (938)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="654"
+                                                                                                    >SHP Фунт Святой Елены  (654)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="694"
+                                                                                                    >SLL Леоне  (694)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="706"
+                                                                                                    >SOS Сомалийский шиллинг  (706)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="968"
+                                                                                                    >SRD Суринамский доллар  (968)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="678"
+                                                                                                    >STD Добра  (678)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="930"
+                                                                                                    >STN Добра Сан-Томе и Принсипи  (930)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="222"
+                                                                                                    >SVC Сальвадорский колон  (222)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="760"
+                                                                                                    >SYP Сирийский фунт  (760)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="748"
+                                                                                                    >SZL Лилангени  (748)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="764"
+                                                                                                    >THB Бат  (764)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="788"
+                                                                                                    >TND Тунисский динар  (788)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="776"
+                                                                                                    >TOP Паанга  (776)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="780"
+                                                                                                    >TTD Доллар Тринидада и Тобаго  (780)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="901"
+                                                                                                    >TWD Новый тайваньский доллар  (901)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="834"
+                                                                                                    >TZS Танзанийский шиллинг  (834)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="800"
+                                                                                                    >UGX Угандийский шиллинг  (800)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="858"
+                                                                                                    >UYU Уругвайское песо  (858)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="937"
+                                                                                                    >VEF Венесуэльский боливар фуэрте  (937)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="928"
+                                                                                                    >VES Венесуэльский боливар cоберан  (928)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="704"
+                                                                                                    >VND Донг  (704)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="548"
+                                                                                                    >VUV Вату  (548)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="950"
+                                                                                                    >XAF Франк КФА ВЕАС  (950)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="951"
+                                                                                                    >XCD Восточно-карибский доллар  (951)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="952"
+                                                                                                    >XOF Франк КФА ВСЕАО  (952)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="886"
+                                                                                                    >YER Йеменский риал  (886)</option>
+                                                                                                                            
+                                                                                        <option
+                                                    value="967"
+                                                                                                    >ZMW Замбийская квача  (967)</option>
+                                                                                                                    </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td  style="color: black;"><b>Пересчитать в:</b></td>
+                            <td class="calculator_countryWrapper" colspan="2">
+                                <select class="select select-default js_select js-matcher" name="code_to">
+                                                                                                                        
+                                                                                        <option                                                         value="840"
+                                                                                                    >USD Доллар США (840)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="978"
+                                                                                                    >EUR Евро (978)</option>
+                                                                                                                            
+                                                                                        <option selected="selected"                                                        value="643"
+                                                                                                    >RUB Российский рубль (643)</option>
+                                                                                                                            
+                                                                                                                                        <option  class="bt"
+                                                    value="51"
+                                                                                                    >AMD Армянский драм (51)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="36"
+                                                                                                    >AUD Австралийский доллар (36)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="944"
+                                                                                                    >AZN Азербайджанский манат (944)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="975"
+                                                                                                    >BGN Болгарский лев (975)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="986"
+                                                                                                    >BRL Бразильский реал (986)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="933"
+                                                                                                    >BYN Белорусский рубль (933)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="124"
+                                                                                                    >CAD Канадский доллар (124)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="756"
+                                                                                                    >CHF Швейцарский франк (756)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="156"
+                                                                                                    >CNY Китайский юань (156)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="203"
+                                                                                                    >CZK Чешская крона (203)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="208"
+                                                                                                    >DKK Датская крона (208)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="826"
+                                                                                                    >GBP Фунт стерлингов (826)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="344"
+                                                                                                    >HKD Гонконгский доллар (344)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="348"
+                                                                                                    >HUF Венгерский форинт (348)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="356"
+                                                                                                    >INR Индийская рупия (356)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="392"
+                                                                                                    >JPY Японская иена (392)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="417"
+                                                                                                    >KGS Киргизский сом (417)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="410"
+                                                                                                    >KRW Вон Республики Корея (410)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="398"
+                                                                                                    >KZT Казахстанский тенге (398)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="498"
+                                                                                                    >MDL Молдавский лей (498)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="578"
+                                                                                                    >NOK Норвежская крона (578)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="985"
+                                                                                                    >PLN Польский злотый (985)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="946"
+                                                                                                    >RON Румынский лей (946)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="752"
+                                                                                                    >SEK Шведская крона (752)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="702"
+                                                                                                    >SGD Сингапурский доллар (702)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="972"
+                                                                                                    >TJS Таджикский сомони (972)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="934"
+                                                                                                    >TMT Новый туркменский манат (934)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="949"
+                                                                                                    >TRY Турецкая лира (949)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="980"
+                                                                                                    >UAH Украинская гривна (980)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="860"
+                                                                                                    >UZS Узбекский сум (860)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="960"
+                                                                                                    >XDR СДР (специальные права заимствования) (960)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="710"
+                                                                                                    >ZAR Южноафриканский рэнд (710)</option>
+                                                                                                                                                        
+                                                                                        <option                                                         value="784"
+                                                                                                    >AED Дирхам (ОАЭ) (784)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="971"
+                                                                                                    >AFN Афганских афгани (971)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="8"
+                                                                                                    >ALL Лек (8)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="973"
+                                                                                                    >AOA Ангольских кванз (973)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="32"
+                                                                                                    >ARS Аргентинское песо (32)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="533"
+                                                                                                    >AWG Арубанский флорин (533)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="977"
+                                                                                                    >BAM Конвертируемая марка (977)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="52"
+                                                                                                    >BBD Барбадосский доллар (52)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="50"
+                                                                                                    >BDT Така (50)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="48"
+                                                                                                    >BHD Бахрейнский динар (48)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="108"
+                                                                                                    >BIF Бурундийский франк (108)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="60"
+                                                                                                    >BMD Бермудский доллар (60)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="96"
+                                                                                                    >BND Брунейский доллар (96)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="68"
+                                                                                                    >BOB Боливиано (68)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="44"
+                                                                                                    >BSD Багамский доллар (44)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="64"
+                                                                                                    >BTN Нгултрум (64)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="72"
+                                                                                                    >BWP Пула (72)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="84"
+                                                                                                    >BZD Белизский доллар (84)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="976"
+                                                                                                    >CDF Конголезских франков (976)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="152"
+                                                                                                    >CLP Чилийское песо (152)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="170"
+                                                                                                    >COP Колумбийское песо (170)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="188"
+                                                                                                    >CRC Костариканский колон (188)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="192"
+                                                                                                    >CUP Кубинское песо (192)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="132"
+                                                                                                    >CVE Эскудо Кабо-Верде (132)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="262"
+                                                                                                    >DJF Франк Джибути (262)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="214"
+                                                                                                    >DOP Доминиканское песо (214)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="12"
+                                                                                                    >DZD Алжирский динар (12)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="818"
+                                                                                                    >EGP Египетский фунт (818)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="232"
+                                                                                                    >ERN Эритрейская накфа (232)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="230"
+                                                                                                    >ETB Эфиопский быр (230)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="242"
+                                                                                                    >FJD Доллар Фиджи (242)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="238"
+                                                                                                    >FKP Фунт Фолклендских островов (238)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="981"
+                                                                                                    >GEL Лари (981)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="936"
+                                                                                                    >GHS Ганский седи (936)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="292"
+                                                                                                    >GIP Гибралтарский фунт (292)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="270"
+                                                                                                    >GMD Даласи (270)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="324"
+                                                                                                    >GNF Гвинейский франк (324)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="320"
+                                                                                                    >GTQ Кетсаль (320)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="328"
+                                                                                                    >GYD Гайанский доллар (328)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="340"
+                                                                                                    >HNL Лемпира (340)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="191"
+                                                                                                    >HRK Хорватская куна (191)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="332"
+                                                                                                    >HTG Гурд (332)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="360"
+                                                                                                    >IDR Рупия (360)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="376"
+                                                                                                    >ILS Новый израильский шекель (376)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="368"
+                                                                                                    >IQD Иракский динар (368)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="364"
+                                                                                                    >IRR Иранский риал (364)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="352"
+                                                                                                    >ISK Исландская крона (352)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="388"
+                                                                                                    >JMD Ямайский доллар (388)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="400"
+                                                                                                    >JOD Иорданский динар (400)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="404"
+                                                                                                    >KES Кенийский шиллинг (404)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="116"
+                                                                                                    >KHR Риель (116)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="174"
+                                                                                                    >KMF Франк Комор (174)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="408"
+                                                                                                    >KPW Северокорейская вона (408)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="414"
+                                                                                                    >KWD Кувейтский динар (414)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="418"
+                                                                                                    >LAK Кип (418)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="422"
+                                                                                                    >LBP Ливанский фунт (422)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="144"
+                                                                                                    >LKR Шри-Ланкийская рупия (144)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="430"
+                                                                                                    >LRD Либерийский доллар (430)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="434"
+                                                                                                    >LYD Ливийский динар (434)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="504"
+                                                                                                    >MAD Марокканский дирхам (504)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="969"
+                                                                                                    >MGA Малагасийских ариари (969)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="807"
+                                                                                                    >MKD Денар (807)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="496"
+                                                                                                    >MNT Тугрик (496)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="446"
+                                                                                                    >MOP Патака (446)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="929"
+                                                                                                    >MRU Мавританских угий (929)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="480"
+                                                                                                    >MUR Маврикийская рупия (480)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="462"
+                                                                                                    >MVR Руфия (462)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="454"
+                                                                                                    >MWK Квача (454)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="484"
+                                                                                                    >MXN Мексиканское песо (484)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="458"
+                                                                                                    >MYR Малайзийский ринггит (458)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="943"
+                                                                                                    >MZN Мозамбикских метикалов (943)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="516"
+                                                                                                    >NAD Доллар Намибии (516)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="566"
+                                                                                                    >NGN Найра (566)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="558"
+                                                                                                    >NIO Золотая кордоба (558)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="524"
+                                                                                                    >NPR Непальская рупия (524)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="554"
+                                                                                                    >NZD Новозеландский доллар (554)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="512"
+                                                                                                    >OMR Оманский риал (512)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="604"
+                                                                                                    >PEN Новый соль (604)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="598"
+                                                                                                    >PGK Кина (598)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="608"
+                                                                                                    >PHP Филиппинское песо (608)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="586"
+                                                                                                    >PKR Пакистанская рупия (586)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="600"
+                                                                                                    >PYG Гуарани (600)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="634"
+                                                                                                    >QAR Катарский риал (634)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="941"
+                                                                                                    >RSD Сербских динаров (941)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="646"
+                                                                                                    >RWF Франк Руанды (646)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="682"
+                                                                                                    >SAR Саудовский риял (682)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="90"
+                                                                                                    >SBD Доллар Соломоновых Островов (90)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="690"
+                                                                                                    >SCR Сейшельская рупия (690)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="938"
+                                                                                                    >SDG Суданский фунт (938)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="654"
+                                                                                                    >SHP Фунт Святой Елены (654)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="694"
+                                                                                                    >SLL Леоне (694)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="706"
+                                                                                                    >SOS Сомалийский шиллинг (706)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="968"
+                                                                                                    >SRD Суринамский доллар (968)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="678"
+                                                                                                    >STD Добра (678)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="930"
+                                                                                                    >STN Добра Сан-Томе и Принсипи (930)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="222"
+                                                                                                    >SVC Сальвадорский колон (222)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="760"
+                                                                                                    >SYP Сирийский фунт (760)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="748"
+                                                                                                    >SZL Лилангени (748)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="764"
+                                                                                                    >THB Бат (764)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="788"
+                                                                                                    >TND Тунисский динар (788)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="776"
+                                                                                                    >TOP Паанга (776)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="780"
+                                                                                                    >TTD Доллар Тринидада и Тобаго (780)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="901"
+                                                                                                    >TWD Новый тайваньский доллар (901)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="834"
+                                                                                                    >TZS Танзанийский шиллинг (834)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="800"
+                                                                                                    >UGX Угандийский шиллинг (800)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="858"
+                                                                                                    >UYU Уругвайское песо (858)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="937"
+                                                                                                    >VEF Венесуэльский боливар фуэрте (937)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="928"
+                                                                                                    >VES Венесуэльский боливар cоберан (928)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="704"
+                                                                                                    >VND Донг (704)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="548"
+                                                                                                    >VUV Вату (548)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="950"
+                                                                                                    >XAF Франк КФА ВЕАС (950)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="951"
+                                                                                                    >XCD Восточно-карибский доллар (951)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="952"
+                                                                                                    >XOF Франк КФА ВСЕАО (952)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="886"
+                                                                                                    >YER Йеменский риал (886)</option>
+                                                                                                                            
+                                                                                        <option                                                         value="967"
+                                                                                                    >ZMW Замбийская квача (967)</option>
+                                                                                                                    </select>
+                            </td>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="calculator_dateLabel" >По курсу ЦБ за:</td>
+                    <td class="calculator_date js_throw-controller">
+                        <input class="datepicker js_throw-target" type="text" name="date"
+                            value="11.07.2021"/>
+                        <i class="icon-font size-small hover-blue cursor-pointer js_throw-focus">g</i>
+                    </td>
+                    <td class="calculator_runWrapper">
+                        <button type="button" class="btn btn-blue calc-run"
+                            title="Рассчитать" style="background-color: brown;">Рассчитать</button>
+                            
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div> <br><br>
+                    
+
+                   <!--post office-->
+
+    <form action="#" class="form">
+        <input type="text" name="name" placeholder="Имя" required />
+        <input type="email" name="email" placeholder="E-Mail" />
+        <input type="tel" name="phone" placeholder="Телефон" />
+        <input type="url" name="url" placeholder="Ваш сайт" />
+        <input type="number" name="growth" placeholder="Ваш рост" />
+        <button type="submit">Отправить</button>
+    </form>
+
+
+
+
+
+    
+                
+
+               
+
+    </div>
+ </div>
+
+
+</body>
+</html>
